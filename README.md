@@ -1,4 +1,4 @@
-# Comparação de Valores em JavaScript - Desafio 7 Days of Code
+# Comparação de Valores em JavaScript - Desafio #7DaysOfCode
 
 Este projeto faz parte do **7 Days of Code**, um desafio de programação promovido pela **One Brasil** em parceria com a **Alura**. O objetivo é praticar lógica de programação com JavaScript ao longo de sete dias.
 
