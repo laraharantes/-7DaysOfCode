@@ -1,0 +1,135 @@
+/* Estilo Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Layout do Body */
+body {
+    background-color: #3ccec2; /* Turquesa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333; /* Cinza escuro */
+}
+
+/* Container principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 30px;
+    color: #1e6f78; /* Azul Profundo */
+    margin-bottom: 20px;
+}
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 18px;
+    color: #156064; /* Azul Escuro */
+    margin-bottom: 20px;
+}
+
+/* Botão */
+button {
+    background-color: #1e6f78; /* Azul Profundo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #156064; /* Azul mais escuro */
+}
+
+/* Estilo para o resumo das escolhas */
+#resumo {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f7fa; /* Azul Claro */
+    border-left: 5px solid #1e6f78; /* Azul Profundo */
+    border-radius: 5px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#resumo h3 {
+    color: #1e6f78; /* Azul Profundo */
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o resumo das escolhas */
+#resumo {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f7fa; /* Azul Claro */
+    border-left: 5px solid #1e6f78; /* Azul Profundo */
+    border-radius: 5px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#resumo h3 {
+    color: #1e6f78; /* Azul Profundo */
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px; /* Adicionado espaço entre o título e as respostas */
+}
+
+#resumo p {
+    margin: 5px 0;
+}
+
+/* Mensagens de destaque */
+.mensagem-erro {
+    color: #e57373; /* Vermelho Suave */
+    font-weight: bold;
+}
+
+.mensagem-sucesso {
+    color: #ffffff; /* Texto branco */
+    background-color: #156064; /* Azul Escuro de fundo */
+    font-weight: bold;
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar mais destaque */
+    margin-top: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Esconde elementos */
+.hidden {
+    display: none;
+}
+
+/* Imagem */
+#imagemEscolha {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
