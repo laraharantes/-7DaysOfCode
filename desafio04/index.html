@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo do Número Secreto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="caixa-jogo">
+      <div class="esquerda-da-caixa">
+        <h1>Jogo do número secreto</h1>
+        <p>Escolha um número entre 1 e 10</p>
+        <input type="number" id="inputNumero">
+        <div class="botoes">
+          <button onclick="verificarChute()">Chutar</button>
+          <button id="reiniciar" onclick="reiniciarJogo()" disabled>Novo jogo</button>
+        </div>
+        <p id="mensagem"></p>
+        <div id="historico">
+          <h2>Histórico de chutes</h2>
+          <ul id="lista-historico"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="imagem-container">
+      <div class="direita-da-caixa">
+        <img src="./assets/imagem.png" alt="Imagem decorativa">
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
