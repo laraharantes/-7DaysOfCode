@@ -1,6 +1,6 @@
 # Lista de Compras - Desafio 7Days of Code
 
-Este é o **quinto projeto** do desafio **7Days of Code** da Alura, em parceria com a **ONE Brasil**. O objetivo deste projeto foi construir uma aplicação em **JavaScript** para gerenciar uma lista de compras de forma interativa, onde o usuário pode adicionar itens, organizá-los por categorias, e visualizar a lista final de forma clara e estruturada.
+Este é o **quinto e o sexto projeto** do desafio **7Days of Code** da Alura, em parceria com a **ONE Brasil**. O objetivo deste projeto foi construir uma aplicação em **JavaScript** para gerenciar uma lista de compras de forma interativa, onde o usuário pode adicionar itens, organizá-los por categorias, e visualizar a lista final de forma clara e estruturada.
 
 ## Funcionalidades
 
