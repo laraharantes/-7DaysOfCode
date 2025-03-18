@@ -16,7 +16,7 @@ body {
     align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1200px; /* Largura máxima da área que vai conter o jogo e a imagem */
   }
   
   .caixa-jogo {
